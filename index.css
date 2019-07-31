@@ -1,13 +1,25 @@
 body {
     background-color: #e7e7e9;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    clear:both;
+    overflow:auto;
+}
+
+nav{
+    float:right;
+}
+
+ul li{
+    display: inline-block; padding:10px;
 }
 
 #nCoin{
-    display: table-cell;
-
-    margin-left: 5%;
-    vertical-align: middle;
+    float: left;
+    margin: 5px 5px 5px 20px;
 }   
 
 .nCircle {
@@ -21,23 +33,21 @@ body {
     text-align: center;
     font: 45px Georgia, serif;
 }
-
-.navbar {
-    width: 100%;
-    height: 10vh;
-    background-color: #13a574;
-    padding-bottom: 20px;
-    text-align: right;
-    display: table;
-
-}
-
-.navbar a {
-    display: table-cell;
-
+a {
+    padding: 0px;
+    margin-right: 10px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
     text-decoration: none;
     color: #e7e7e9;
     font: 24px Georgia, serif;
-    padding-right:  30px;
-    margin: auto;
+}
+
+a:hover {
+    color: #cac7c7;
+}
+
+.container {
+    background-color: #13a574;
 }
