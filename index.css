@@ -14,14 +14,14 @@ body {
     width: 25%;
     float: left;
     height: 100%;
-    background-color: #003865;
+    background-color: #182733;
 }
 .headshot {
 }
 
 .memo {
     font: 16px Georgia, serif;
-    color: #faf7f4;
+    color: #F3F2F0;
     max-width: 300px;
     text-align: center;
     margin: auto;
@@ -42,9 +42,25 @@ body {
 
 .emailButton {
     font: 20px Georgia, serif;
-    background-color: #faf7f4;
+    background-color: #F3F2F0;
     border: none;
-    color: #003865;
+    color: #182733;
+    padding: 12.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+}
+
+.emailButton:hover {
+    font: 20px Georgia, serif;
+    background-color: #A5B8BB;
+    border: none;
+    color: #182733;
     padding: 12.5px;
     text-align: center;
     text-decoration: none;
@@ -72,7 +88,7 @@ ul {
     width: 75%;
     height: 100%;
     float: right;
-    background-color: #faf7f4;
+    background-color: #F3F2F0;
 }
 
 .icons {
