@@ -24,6 +24,7 @@ body {
     color: #faf7f4;
     max-width: 300px;
     text-align: center;
+    margin: auto;
 }
 .headshot img {
     width: 170px;
