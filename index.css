@@ -42,10 +42,10 @@ body {
 
 .emailButton {
     font: 20px Georgia, serif;
-    background-color: #faf7f4; /* Green */
+    background-color: #faf7f4;
     border: none;
     color: #003865;
-    padding: 15px;
+    padding: 12.5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -56,9 +56,28 @@ body {
     width: 200px;
 }
 
+
+.links {
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-top: 220px;
+}
+
 .resume {
     width: 75%;
     height: 100%;
     float: right;
     background-color: #faf7f4;
+}
+
+.icons {
+    float: right;
+    max-width: 30px;
+    height: auto;
+    padding-right: 12.5px;
 }
