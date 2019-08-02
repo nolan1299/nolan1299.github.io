@@ -33,7 +33,27 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
 
+.email {
+    text-align: center;
+    margin: auto;
+}
+
+.emailButton {
+    font: 20px Georgia, serif;
+    background-color: #faf7f4; /* Green */
+    border: none;
+    color: #003865;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
 }
 
 .resume {
